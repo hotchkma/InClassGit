@@ -1,5 +1,5 @@
 def div(n):
-	for x in range(n):
-		print(x)
+	for x in range(1,n+1):
+		if n%x == 0:
+			print(x)
 
-div(6)
