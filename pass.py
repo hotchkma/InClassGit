@@ -1,0 +1,2 @@
+def passw(n):
+	pass
