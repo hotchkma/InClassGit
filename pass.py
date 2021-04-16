@@ -1,6 +1,7 @@
 import random
 
 def passw(n):
+		password = ""
 		for x in range(0,n):
-				print(random.randrange(0,10,1))
-passw(5)
+				password += str(random.randrange(0,10,1))
+		print(password)
