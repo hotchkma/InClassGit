@@ -1,2 +1,5 @@
 def div(n):
-	pass
+	for x in range(n):
+		print(x)
+
+div(6)
