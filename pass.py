@@ -1,2 +1,4 @@
 def passw(n):
-	pass
+		for x in range(0,n):
+				print(x)
+passw(5)
